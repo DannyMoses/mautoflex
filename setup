@@ -1,0 +1,8 @@
+#! /bin/bash
+echo Compiling mautoflex.c...
+gcc mautoflex.c -o mautoflex
+echo Moving to /usr/bin... 
+
+if [[ $? -eq 0 ]]; then
+sudo mv mautoflex /usr/bin
+fi
