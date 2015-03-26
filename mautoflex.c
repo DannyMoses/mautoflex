@@ -51,10 +51,6 @@ int main(int argc, char** argv[]) {
   
   system("./tmpscript");
 
-  printf("Finished. Deleting script...\n");
-
-  system("rm tmpscript");
-
   printf("Finished. Enjoy!\n");
 
   return 0;
